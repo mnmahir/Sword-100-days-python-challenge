@@ -19,6 +19,6 @@ age = input("What is your current age?")
 days = 365
 weeks = 52
 months = 12
-left = 90 - int(age)25
+left = 90 - int(age)
 print(f"You have {left * days} days, {left * weeks} weeks, and {left * months} months left.")
 
