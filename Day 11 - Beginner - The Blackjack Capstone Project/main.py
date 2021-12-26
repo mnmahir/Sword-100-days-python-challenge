@@ -121,6 +121,7 @@ def play_game():
         else:
             if input("Want to get another card? Type 'y' for yes, 'n' for no: ") == 'y':
                 player_cards.append(deal_card())
+                player_score = calculate_score(player_cards)
                 if calculate_score(player_cards) == 21:
                     break
             else:
